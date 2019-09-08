@@ -1,7 +1,8 @@
 :root{
     --color-1:rgb(241, 132, 59);
     --color-2:rgb(134, 241, 72);
-    --color-3:rgb(238, 73, 188);
+    --color-3:rgb(240, 133, 208);
+    --color-4:white;
 }
 .container{
     background-color: var(--color-1);
@@ -24,20 +25,8 @@
     padding: 20px;
     width: 400px;
 }
-.ball-1{
-    background-color: aliceblue;
-    border-radius: 70px;
-    height: 110px;
-    width: 110px;
-}
-.ball-2{
-    background-color: aliceblue;
-    border-radius: 70px;
-    height: 110px;
-    width: 110px;
-}
-.ball-3{
-    background-color: aliceblue;
+#ball-1,#ball-2,#ball-3{
+    background-color: var(--color-4);
     border-radius: 70px;
     height: 110px;
     width: 110px;
