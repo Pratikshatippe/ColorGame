@@ -1,0 +1,25 @@
+:root{
+    --color-1:rgb(82, 223, 248);
+    --color-2:rgb(255, 0, 242);
+}
+.container{
+    background-color: var(--color-1);
+    height: 100%;
+    margin: 0;
+    padding: 50px;
+    width: 100%;
+}
+.tools{
+    background-color: var(--color-2);
+    float: left;
+    height: 100%;
+    padding: 20px;
+    width: 30%;
+}
+.back{
+    background-color: blueviolet;
+    float: left;
+    height: 100%;
+    padding: 200px;
+    width: 35%;
+}
